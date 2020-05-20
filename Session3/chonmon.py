@@ -18,7 +18,7 @@ for index, value in enumerate (mon_an):
 #sua mon truc tiep mon => mon
 old_value = input("enter the number you want to edit:")
 value = input('new value:')
-index= mon_an.index(old_value)
-mon_an[index] = value
-for index, value in enumerate (mon_an):
-    print(index+1, value)
+index1= mon_an.index(old_value)
+mon_an[index1] = value
+for index1, value in enumerate (mon_an):
+    print(index1+1, value)

@@ -44,3 +44,7 @@ mon_an.append(name10) #them mon an theo input
 mon_an[0] = 'bach tuoc' #update
 print(mon_an)
 
+#lenh delete
+deleted_item = mon_an.pop() #khong dien so no se xoa mon cuoi cung
+print(mon_an)
+print(deleted_item)
