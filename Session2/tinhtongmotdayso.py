@@ -6,6 +6,6 @@ for i in range(5):
 print(total)
 
 total=''
-for i in ['a','b','c']
-total +=i
+for i in ['a','b','c']:
+total += i
 print(total)

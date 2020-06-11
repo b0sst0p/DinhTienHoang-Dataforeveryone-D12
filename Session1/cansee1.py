@@ -7,8 +7,7 @@ t.begin_fill()
 for i in range(360//7): 
     t.circle(50) 
     t.right(-5) 
-    t.circle(50)
-    t.right(-5)
+    
 t.end_fill()
 wn.mainloop()
 

@@ -8,4 +8,4 @@ else:
     print(':(')
 
 
-word_list= ['meticulous','champion','hexagon']
+

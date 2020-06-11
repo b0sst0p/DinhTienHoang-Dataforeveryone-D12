@@ -1,14 +1,20 @@
-import turtle
-wn = turtle.Screen()
-t = turtle.Turtle()
-t.fillcolor()
-t.begin_fill()
-for j in range(5):
-    for i in range(2):
-        t.forward(50*i)
-        t.right(90)
-        t.forward(30)
-        t.right(90)
-        t.forward(50*2*i)   
-t.end_fill()
-wn.mainloop()
+shape("square")
+for i in range(1,6):
+    begin_fill()
+    for n in range(4):
+        forward(100)
+        left(90)
+    forward(100)
+    if i == 1:
+        color("red")
+    elif i == 2:
+            color("blue")
+    elif i == 3:
+            color("brown")
+    elif i == 4:
+            color("yellow")
+    else:
+            color("grey")
+    end_fill()
+    
+mainloop()

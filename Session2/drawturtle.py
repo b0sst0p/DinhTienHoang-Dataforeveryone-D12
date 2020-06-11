@@ -1,3 +1,4 @@
+#ve hinh vuong 4 mau
 from turtle import *
 shape('turtle')
 speed('fastest')
